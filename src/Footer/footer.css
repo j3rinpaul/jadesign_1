@@ -1,0 +1,60 @@
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f6f6f5;
+    
+}
+#logo{
+    width: 100%;
+    margin-left: -14%;
+}
+#div1{
+    padding-left: 0%;
+}
+
+
+@media only screen and (max-width: 576px){
+    #logo{
+        width: 40%;
+        margin-left: -7%;
+    }
+
+    #soc{
+        text-decoration: none;
+        padding-left: 0%;
+    }
+    #footer{
+        height: 70%;
+    }
+}
+
+@media only screen and (min-width: 1500px){
+    #logo{
+        width: 60%;
+        margin-left: 3%;
+    }
+   
+}
+
+#soc{
+    text-decoration: none;
+    padding-left: 4%;
+}
+
+@media only screen and (min-width: 660px){
+    #soc{
+        text-decoration: none;
+        padding-left: 0%;
+    }
+}
+
+#det{
+    margin-right: -17%;
+}
+
+#pro{
+    text-decoration: none;
+}
+

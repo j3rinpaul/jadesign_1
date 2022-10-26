@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+#fcolor{
+    font-weight: 1000;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F6F6 !important;
+    /* margin-bottom: 5%; */
+}
+
+
+#navimg img{
+    width: 50% !important; 
+    margin-left: 10%;
+}
+
+#navitem{
+    margin-left: 1%;
+    color: black;
+}
