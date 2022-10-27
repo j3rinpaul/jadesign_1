@@ -5,11 +5,14 @@ import {
   MDBNavbarBrand,
   MDBNavbarToggler,
   MDBNavbarNav,
-  MDBNavbarItem,
   MDBNavbarLink,
   MDBIcon,
   MDBCollapse
 } from 'mdb-react-ui-kit';
+import {
+  BrowserRouter as Router,
+  Link,
+} from "react-router-dom"
 import logo from "../../images/jadelogo-removebg-preview.png"
 import './navbar.css'
 
@@ -20,7 +23,7 @@ export default function NavBar() {
     
     <MDBNavbar expand='lg'  id='fcolor'  >
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>
+        <MDBNavbarBrand as={Link} to="/Home">
             <div id='navimg'>
                 <img src={logo} alt="" />
             </div> 
@@ -34,10 +37,10 @@ export default function NavBar() {
         </MDBNavbarToggler>
         <MDBCollapse navbar show={showNavSecond}>
           <MDBNavbarNav>
-            <MDBNavbarLink id='navitem' href='#'>Home</MDBNavbarLink>
-            <MDBNavbarLink href='#' id='navitem'>About</MDBNavbarLink>
-            <MDBNavbarLink href='#' id='navitem'>Products</MDBNavbarLink>
-            <MDBNavbarLink href='#' id='navitem'>Contact</MDBNavbarLink>
+            <Link to="/Home"><MDBNavbarLink id='navitem' >Home</MDBNavbarLink></Link>
+            <Link to="/About"><MDBNavbarLink id='navitem'>About</MDBNavbarLink></Link>
+            <Link to="/Product"><MDBNavbarLink  id='navitem'>Products</MDBNavbarLink></Link>
+            <Link to="/Contact"><MDBNavbarLink  id='navitem'>Contact</MDBNavbarLink></Link>
             
           </MDBNavbarNav>
         </MDBCollapse>

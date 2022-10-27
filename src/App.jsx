@@ -1,17 +1,27 @@
 import React from 'react'
 import NavBar from './Navbar/navBar'
 import Footer from './Footer/fooTer'
+import About from './About/About'
+import Home from './Home/home'
+import Product from './Product/Product'
+import Contact from './Contact/Contact'
+import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
 
 function App() {
   return (
-    <div>
-      <NavBar/>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <Footer/>
-    </div>
+    <Router>
+      <div>
+        <NavBar/>
+        <Routes>
+            <Route path="/Product" element={<Product />}/>
+            <Route path="/Home" element={<Home />}/>
+            <Route path="/About" element={<About />}/>
+            <Route path="/Contact" element={<Contact />}/>
+            <Route path="/" element={<Home />}/>
+        </Routes>
+        <Footer/>
+      </div>
+    </Router>
   )
 }
 
