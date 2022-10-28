@@ -5,6 +5,8 @@ import About from './About/About'
 import Home from './Home/home'
 import Product from './Product/Product'
 import Contact from './Contact/Contact'
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
 
 function App() {

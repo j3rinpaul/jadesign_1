@@ -1,0 +1,25 @@
+.head{
+    position: absolute;
+    left: 38%;
+    top: 20%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 50px;
+
+    color: #000000;
+}
+
+@media only screen and (max-width: 600px){
+    .head{
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    .head{
+        left: 38%;
+    }
+}
