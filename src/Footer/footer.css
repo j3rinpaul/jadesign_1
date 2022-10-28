@@ -23,6 +23,10 @@
     margin-bottom: -20px;
     font-family: 'Poppins', sans-serif;
   }
+  
+  .details a{
+    color: rgb(30, 28, 28);
+  }
 
   .icons  {
     display: flex;
@@ -42,11 +46,7 @@
     width: 50px;
   }
 
-  .icons a:hover{
-    color: rgb(7, 161, 7);
-  }
-
-
+  
   @media screen and (max-width: 600px){
     .footer{
         justify-content: space-around;

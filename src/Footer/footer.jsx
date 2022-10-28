@@ -17,7 +17,7 @@ function Footer() {
         </div>
 
         <div className='details'>
-          <a><p>Jadesign @ 2022</p></a>
+          <a href=''><p>Jadesign @ 2022</p></a>
           
   
         </div>
