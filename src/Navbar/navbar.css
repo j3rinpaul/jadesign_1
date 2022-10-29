@@ -17,3 +17,17 @@
     margin-left: 1%;
     color: black;
 }
+
+@media screen and (max-width:600px) {
+    .navbar-brand img {
+        margin-right: -0.75rem !important;
+    }
+
+    
+}
+
+@media screen and (max-width:400px) {
+    .navbar-brand img {
+        margin-right: -1.75rem !important;
+    }
+}

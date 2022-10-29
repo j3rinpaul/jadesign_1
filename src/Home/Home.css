@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 .head{
     position: absolute;
-    left: 38%;
+    left: 31%;
     top: 20%;
-
     font-family: 'Poppins';
-    font-style: normal;
     font-weight: bold;
     font-size: 35px;
     line-height: 50px;
@@ -12,11 +12,111 @@
     color: #000000;
 }
 
+
+.home{
+    background-color: #f5f6f6;
+    padding: 3%;
+}
+
+.wrapper{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,
+    minmax(12rem, 16rem));
+    justify-content:center;
+    margin-bottom: 10%;
+    margin-top: 3%;
+    gap: 20%;
+    /* height: 80%; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.more{
+    margin-left: 46%;
+    border-radius: 5px;
+    
+
+}
+
+.more a{
+    color: black;
+    border: 1px rgb(8, 8, 8) solid;
+    border-radius: 3px;
+    background-color: white;
+    padding: 1%;
+    
+   
+}
+
+.more a:hover{
+    color:white ;
+    background-color: #FF9C00;
+}
+.link a{
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-weight: 400;
+    font-size: 48px;
+    margin-top: 1%;
+    color: #000000;
+}
+
+.btn{
+    padding:0.25rem;
+    font-family:inherit;
+    font-weight:bold;
+    font-size:1rem;
+    color: black;
+    text-decoration: none;
+    margin:10%;
+    border:1px solid gray;
+    background-color: transparent;
+    border-radius: 5px;
+    transition:background 200ms ease-in,color 200ms ease-in;
+}
+
+.headin{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+.headin h2{
+    font-weight: bold;
+}
+
+
+
 @media only screen and (max-width: 600px){
-    .head{
-        margin-bottom: 10%;
+    .head {
+        position: absolute;
+
+        left: 25%;
+        top: 20%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 45px;
+        color: #000000;
+    }
+    .headin p{
+        margin: 2%;
+        text-align: center;
     }
 }
+
+
+
+
 
 @media only screen and (min-width: 900px){
     .head{

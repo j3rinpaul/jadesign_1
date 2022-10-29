@@ -1,16 +1,50 @@
 import React from 'react'
 import './Home.css'
+import Typewriter from "typewriter-effect";
+import HomeCard from '../Cards/homeCard'
+import cardi from "../../images/Inkjet-PP-Synthetic-Paper-for-Eco-Solvent-150_.png"
+import card2 from "../../images/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-1.png"
 
+const more = "More -->"
 function Home() {
   return (
-    <div>
-      <div className='head'>
-        <p>JADESIGN ADVERTISING</p>
-      </div>
-      <div>
+    <div className='home'>
+      <div className='headin'>
+        <h2>JADESIGN ADVERTISING</h2>
+        <p>
+          <Typewriter
+            onInit={(typewriter)=> {
+            typewriter
+            .typeString("One Stop shop for Advertising Sign Supplies and Display Products ")
+            .pauseFor(1000)
+            .deleteAll()
+            .typeString("Display Products")
+            .pauseFor(1000)
+            .deleteAll()
+            .typeString("Digital Printing Media")
+            .pauseFor(1000)
+            .deleteAll()
+            .typeString("One Stop shop for Advertising Sign Supplies and Display Products ")
+            .start();
+            }}
+          />
+        </p>
 
       </div>
+      <div className='link'>
+        <a href='#'><h2>PRODUCTS</h2></a>
+        <div className='wrapper'>
+          <HomeCard img = {cardi} title="Eco Solvent" />
+          <HomeCard img = {card2} title="Eco Solvent" />
+        </div>
+       
+      </div>
+      <div className='more'>
+        <a href="#">{more}</a>
+      </div>
       
+       
+
     </div>
   )
 }
