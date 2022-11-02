@@ -5,6 +5,7 @@ import About from './About/About'
 import Home from './Home/home'
 import Product from './Product/Product'
 import Contact from './Contact/Contact'
+import ProductPage from './Product/ProductPage'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
@@ -19,6 +20,7 @@ function App() {
             <Route path="/Home" element={<Home />}/>
             <Route path="/About" element={<About />}/>
             <Route path="/Contact" element={<Contact />}/>
+            <Route path="/ProductPage" element={<ProductPage />}/>
             <Route path="/" element={<Home />}/>
         </Routes>
         <Footer/>

@@ -32,15 +32,15 @@ function Home() {
 
       </div>
       <div className='link'>
-        <a href='#'><h2>PRODUCTS</h2></a>
+        <a href='/Product'><h2>PRODUCTS</h2></a>
         <div className='wrapper'>
-          <HomeCard img = {cardi} title="Eco Solvent" />
-          <HomeCard img = {card2} title="Eco Solvent" />
+          <HomeCard img = {cardi} title="Eco Solvent" red="/Product" />
+          <HomeCard img = {card2} title="Eco Solvent" red="/Product" />
         </div>
        
       </div>
       <div className='more'>
-        <a href="#">{more}</a>
+        <a href="/Product">{more}</a>
       </div>
       
        

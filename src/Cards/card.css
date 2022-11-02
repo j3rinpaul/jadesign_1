@@ -13,6 +13,8 @@ body{
     justify-content:space-between;
     font-family: 'Poppins', sans-serif;
     cursor:pointer;
+    margin-top: 12%;
+    margin-bottom: 10%;
     transition:transform 200ms ease-in;
 
 }
@@ -37,9 +39,9 @@ body{
     text-align: center;
 }
 .cimg{
-    height:12rem;
+    height:15rem;
     width:100%;
-    object-fit:cover;
+    object-fit:fill;
 } 
 .hcimg{
     height:75%;

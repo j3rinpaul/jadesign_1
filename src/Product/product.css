@@ -1,0 +1,19 @@
+/* css to style the product page */
+/* card alignment */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+    font-family:"Poppins" ;
+}
+
+.wrapper1{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,
+    minmax(12rem, 16rem));
+    gap:2rem;
+    justify-content:center;
+}
+
+.uk h2{
+    margin-left: 13%;
+    margin-top: 2%;
+}
