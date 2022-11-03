@@ -2,8 +2,8 @@ import React from 'react'
 import './Home.css'
 import Typewriter from "typewriter-effect";
 import HomeCard from '../Cards/homeCard'
-import cardi from "../../images/Inkjet-PP-Synthetic-Paper-for-Eco-Solvent-150_.png"
-import card2 from "../../images/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-1.png"
+import cardi from "../../images/PP_Paper.png"
+import card2 from "../../images/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-11.png"
 
 const more = "More -->"
 function Home() {

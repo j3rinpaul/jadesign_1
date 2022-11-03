@@ -11,6 +11,8 @@ body{
     minmax(12rem, 16rem));
     gap:2rem;
     justify-content:center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .uk h2{

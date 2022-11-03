@@ -23,9 +23,9 @@ export default function NavBar() {
     
     <MDBNavbar expand='lg'  id='fcolor'  >
       <MDBContainer fluid>
-        <MDBNavbarBrand as={Link} to="/Home">
+        <MDBNavbarBrand as={Link} to="/">
             <div id='navimg'>
-                <img src={logo} alt="" />
+                <a href="/"><img src={logo} alt="" /></a>
             </div> 
         </MDBNavbarBrand>
         <MDBNavbarToggler
