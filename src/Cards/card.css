@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card{
+    overflow:hidden;
+    /* box-shadow:0 1px 20px gray; */
+    /* border-radius:15px; */
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    font-family: 'Poppins', sans-serif;
+    cursor:pointer;
+    transition:transform 200ms ease-in;
+
+}
+
+.hcard{
+    overflow:hidden;
+    /* box-shadow:0 1px 20px gray; */
+    border-radius:15px;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    /* border: 0.5px solid black; */
+    margin: -8%;
+    font-family: 'Poppins', sans-serif;
+    cursor:pointer;
+    transition:transform 200ms ease-in;
+    align-items: center;
+
+}
+.card h2{
+    text-align: center;
+}
+.cimg{
+    height:12rem;
+    width:100%;
+    object-fit:cover;
+} 
+.hcimg{
+    height:75%;
+    width:100%;
+    margin-top: 10%;
+    object-fit: contain;
+    background-color: #f6f5f5;
+} 
+
+.hcimg img{
+    background-color: #f5f6f6;
+    border: 0.25px black solid;
+}
+
+.cbody{
+    margin: 1rem;
+    flex-grow: 1;
+}
+.hcbody{
+    margin: 1rem;
+    flex-grow: 1;
+}
+
+.ctitle{
+        padding: 0rem;
+  
+}
+.hctitle{
+    text-align: center;
+    margin-top: -26%;
+}
+
+.cdesc{
+    padding: 0 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cbtn{
+    padding:0.25rem;
+    font-family:inherit;
+    font-weight:bold;
+    font-size:1rem;
+    color: black;
+    text-decoration: none;
+    margin:2rem;
+    border:1px solid gray;
+    background-color: transparent;
+    border-radius: 5px;
+    transition:background 200ms ease-in,color 200ms ease-in;
+}
+
+.hcbody ul{
+    padding-left: 3%;
+    margin-top: -8%;
+    margin-bottom: -14%;
+}
+.hcbtn{
+    padding:0.25rem;
+    display: flex;
+    font-family:inherit;
+    font-weight:bold;
+    font-size:1rem;
+    color: black;
+    text-decoration: none;
+    margin:2rem;
+    border:1px solid gray;
+    background-color: transparent;
+    border-radius: 5px;
+    transition:background 200ms ease-in,color 200ms ease-in;
+}
+.cbtn1{
+    padding:0.5rem;
+    font-family:inherit;
+    font-weight:bold;
+    font-size:1rem;
+    color: black;
+    text-decoration: none;
+    margin:1rem;
+    border:1px solid gray;
+    background-color: transparent;
+    border-radius: 5%;
+    transition:background 200ms ease-in,color 200ms ease-in;
+    display: block;
+
+}
+
+.cbtn1:hover{
+    background-color: gray;
+    color: white;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+.hcard:hover{
+    transform: scale(1.02);
+}
+
+.cbtn:hover{
+    background-color: #FF9C00;
+    color: white;
+}
+.hcbtn:hover{
+    background-color: #FF9C00;
+    color: white;
+}

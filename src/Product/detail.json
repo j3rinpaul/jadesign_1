@@ -1,0 +1,95 @@
+{ 
+    "digital" : {
+        "Eco Solvent Vinyl": ["0.92 x 50m","1.07 x 50m","1.27 x 50m","1.37 x 50m","1.52 x 50 m"],
+        "Eco Solvent PP Paper": ["0.92 x 50m","1.07 x 50m","1.27 x 50m","1.37 x 50m","1.52 x 50 m"],
+        "Lamination": ["0.92 x 50m","1.07 x 50m","1.27 x 50m","1.37 x 50m","1.52 x 50 m"],
+        "Floor Lamination":["1.07 x 50m","1.27 x 50m","1.52 x 50 m"],
+        "Mounting Film":["1.07 x 50m","1.27 x 50m","1.52 x 50 m"],
+        "Backlit Film":["1.07 x 30m","1.27 x 30m","1.52 x 30 m"],
+        "Canvas":["1.07 x 18m","1.27 x 18m","1.52 x18 m"],
+        "One Way Vision":["1.07 x 50m","1.27 x 50m","1.52 x 50 m"],
+        "Window Film":["1.52 x 30m"],
+        "Frosted Sticker":["1.22 x 50m"],
+        "Reflective Sticker":["1.24 x 50m"]
+
+    },
+
+    "display":{
+        "FrontLit Banner":{
+            "Density":["440 gsm","510 gsm"],
+            "Size":["1.07 m","1.10 m","1.22 m","1.27 m","1.37 m","1.52m","1.60m","1.83m","2.02m","2.22m","2.25m","3.22m"],
+            "Length":"50 m"
+        },
+        "Backlit FLex":{
+            "Density":["560 gsm","610 gsm"],
+            "Size":["1.65m2","2.02m","2.60m","3.20m"],
+            "Length":"50 m"
+        },
+        "Coated Banner":{
+            "Density":["560 gsm","610 gsm"],
+            "Size":["1.65m2","2.02m","2.60m","3.20m"],
+            "Length":"50 m"
+        },
+        "Black Back Banner":{
+            "Density":["440 gsm","510 gsm"],
+            "Size":["1.07 m","1.10 m","1.22 m","1.27 m","1.37 m","1.52m","1.60m","1.83m","2.02m","2.22m","2.25m","3.22m"],
+            "Length":"50 m"
+        }
+    },
+    "display2":{
+        "Pop Up Curved":{
+            "2 x 3 Pop-Up Curved":{
+                "Front Visible Area":"192 x 230 cm",
+                "Printable Area":"274 x 230 cm"
+            },
+            "3 x 3 Pop-Up Curved":{
+                "Front Visible Area":"202 x 230 cm",
+                "Printable Area":"334 x 230 cm"
+            },
+            "4 x 3 Pop-Up Curved":{
+                "Front Visible Area":"332 x 230 cm",
+                "Printable Area":"414 x 230 cm"
+            }
+        },
+        "Pop Up Straight":{
+            "2 x 3 Pop-Up Straight":{
+                "Front Visible Area":"192 x 230 cm",
+                "Printable Area":"274 x 230 cm"
+            },
+            "3 x 3 Pop-Up Straight":{
+                "Front Visible Area":"277 x 230 cm",
+                "Printable Area":"344 x 230 cm"
+            },
+            "4 x 3 Pop-Up Straight":{
+                "Front Visible Area":"362 x 230 cm",
+                "Printable Area":"434 x 230 cm"
+            }
+        },
+        
+        "Fabric Pop Up Stand":{
+            "3 x 3 Fabric Pop Up Stand":{
+                "Front Visible Area":"225 x 223 cm",
+                "Printable Area":"295 x 223 cm"
+            },
+            "4 x 3 Fabric Pop Up Stand":{
+                "Front Visible Area":"297 x 223 cm",
+                "Printable Area":"367 x 223 cm"
+            }
+        }
+        
+    },
+
+    
+    "display3":{
+        "Adjustable BackDrop Stand":{
+            "Size":"240 x 240 cm"
+        },
+        "Tension Fabrix Stand":{
+            "Size":["220 x 220 cm","220 x 300 cm"]
+        },
+        "Fabric Pop Up Stand":{
+            "Size":"240 x 240 cm"
+        }
+    }
+
+}
