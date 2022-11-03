@@ -8,7 +8,7 @@ function About() {
         <p>
       JADE SIGN ADVERTISING REQUISITES TRADING L.L.C. is one of the specialized suppliers of Advertising Materials & Digital Printing Media 
       Products ranging from Pop Up, Rollup, Brochure Stands, Pop Up Table, Sales Promotion Table, X Banner Stand, Backdrop Stand, Information
-       Board, Snap Frame, A Board, Q Barrier Stand, Light Box, Flags, Eco-Solvent Vinyl, Lamination, Floor Lamination, Eco- Solvent PP Paper,
+      Board, Snap Frame, A Board, Q Barrier Stand, Light Box, Flags, Eco-Solvent Vinyl, Lamination, Floor Lamination, Eco- Solvent PP Paper,
         Rollup Media, Dura trance /Backlit Film, Eco-Solvent Cotton Canvas, Banner, Flex, Foam Board, Forex Sheet, Corrugated Sheet, ACP, Acrylic 
         Products etc. We deliver our products with standard quality with competitive prices. We have a team of qualified dedicated 
         <br/>
@@ -24,28 +24,31 @@ function About() {
       <div className='card-content'>
         <div className='card'>
           <h3>Our Vision </h3>
-          <p>To become one of the reliable one stop
+          
+          <p><br/><br/>To become one of the reliable one stop
             suppliers of Advertising Products &
             Digital Printing Materials in UAE &
             MIDDLEEAST
+            <br/><br/>
             </p>
         </div>
-         <div className='list'>
+        <div className='card'>
           <h3>Why JADE SIGN?</h3>
-          <ul>
-            <li>One stop suppliers for Advertising</li>
-            <li>Products & Digital Printing Materials</li>
-            <li>Quality & Sophisticated services</li>
-            <li> Nominal prices</li>
-            <li> Capable to handle large quantity</li>
-            <li> on-Time product delivery</li>
-          </ul> 
-         </div> 
-
-        
+          <p>
+            One stop suppliers for Advertising
+            <br/>
+            Products & Digital Printing Materials
+            <br/>
+            Quality & Sophisticated services
+            <br/>
+            Nominal prices<br/>
+            Capable to handle large quantity<br/>
+            on-Time product delivery<br/>
+          </p>
+        </div> 
         <div className='card'>
           <h3>Customer Satisfaction </h3>
-          <p>
+          <p><br/>
           We also provide customized facility to
           meet the specific requirement of our
           customers and ensure customer

@@ -172,14 +172,14 @@ position: absolute;
     border-radius: 10px;
     padding: 2%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    height: 80%; 
-    width: 100%; 
+    height: auto; 
+    width: auto; 
     justify-content: center;
     align-items: center;
     align-content: center;
     text-align: center;
     padding: auto;
-  
+    margin: auto;
     
     font-family: 'Poppins', sans-serif;
 }
@@ -202,13 +202,14 @@ position: absolute;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     color: #39353A;
-    padding: 2%;
-    margin: 2%;
+    padding: 1%;
+    margin: 1%;
     border-radius: 5px;
     background-color: #f0f0f0;
+    text-align: center;
 }
 .list{
     background-color:#ffffff ;
@@ -216,7 +217,7 @@ position: absolute;
     padding: 2%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     height: auto; 
-    width: 100%; 
+    width: auto; 
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -227,8 +228,9 @@ position: absolute;
     font-family: 'Poppins', sans-serif;
 }
 .list:hover{
-    transform: scale(1.1);
+    transform: scale(1.02);
     z-index: 10;
+
 }
 .list h2{
     font-family: 'Poppins', sans-serif;
@@ -239,7 +241,7 @@ position: absolute;
     color: #2D2A2A;
     position: absolute;
 }
-.list ul{
+.card pre{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -265,18 +267,31 @@ position: absolute;
     .body{
         height: 100vh;
     }
+    .card-content{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,
+        minmax(12rem, 16rem));
+        justify-content:center;
+        margin-bottom: 10%;
+        margin-top: 3%;
+        gap: 20%;
+        /* height: 80%; */
+        font-family: 'Poppins', sans-serif;
+    }
     .card{
         background-color: #ffffff;
     border-radius: 10px;
     padding: 2%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     height: auto; 
-    width: 100%; 
+    width: auto; 
     justify-content: center;
     align-items: center;
     align-content: center;
     text-align: center;
     padding: auto;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
 
     }
     .dwnld{
