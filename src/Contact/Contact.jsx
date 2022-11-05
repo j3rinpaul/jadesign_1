@@ -3,6 +3,7 @@ import './contact.css'
 import Form from './form/form'
 function Contact() {
   return (
+    <div className='body-1'>
     <div className='container'>
       
       <div className='textContent'>
@@ -24,7 +25,9 @@ function Contact() {
     <h2> Enquire via </h2>
     <Form/>
   </div>
+</div>
   <div className='map'>
+
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.886852779414!2d55.405507214829505!3d25.173298083907408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f613424d28557%3A0xb19aece433dfce38!2sEngland%20X10%20-%20International%20City%20-%20England%20Cluster%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1667042371246!5m2!1sen!2sin" 
       width="100%" 
       height="90%" 

@@ -1,6 +1,13 @@
+.body-1{
+    height: 100vh;
+    margin: 0%;
+    background-color: #f0f0f0;
+}
 .container{
-    display: grid;
-    height:100vh;
+    display: flex;
+    flex-direction: column;
+    column-gap: 20%;
+    height:60%;
 
    
     
@@ -67,10 +74,53 @@ color: #39353a;
     
 } */
 .map{
-    width:100%;
+    width:95%;
     
+    margin:1%;
+    margin-left: 2%;
     /* background-color: aquamarine; */
     justify-content: end;
     margin-top: 5%;
     margin-bottom: 2%;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+    border: 1px;
+    border-radius: 20px;
+    /* margin-top: 5%; */
+}
+@media only screen and (max-width: 600px){
+   
+    .container{
+        display: block;
+        padding-bottom: 6%;
+
+       
+         
+    }
+    .textContent{
+        position: relative;
+        padding: 1rem;
+        width: 100%;
+        
+    }
+    .form{
+        position: relative;
+        margin-top:50%;
+        margin-left: 0%;
+        width: 100%;
+
+
+    }
+    .map{
+        width: 100%;
+        margin-top: 54%;
+        padding: 3%;
+        margin-bottom: 5%;
+
+    }
+
+
+
 }

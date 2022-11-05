@@ -14,7 +14,7 @@ function About() {
         <br/>
         professionals & staff who make comprehensive use of the latest technologies available to give you the very best solution to your advertising and Sign product needs.
       We are supported by an experienced and talented management team of well qualified professionals, technicians who have in depth knowledge about all aspects of our advertising, Sign & Printing Industry
-        </p>
+      </p>
       <div className='dwnld'>
         <a href="./Jade Sign.pdf" download="Jade Sign.pdf" >
                 <button id='butn'>Download Brochure</button>
