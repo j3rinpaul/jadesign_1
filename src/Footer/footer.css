@@ -10,6 +10,7 @@
     flex-direction: row;
     background-color: #D9D9D9;
     position: relative;
+   
     bottom: 0;
     left: 0;
     width: 100%;
@@ -51,6 +52,8 @@
     .footer{
         justify-content: space-around;
         padding: 2%;
+        margin-top: 7rem;
+
     }
 
     .details{
